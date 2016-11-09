@@ -1,0 +1,142 @@
+@media only screen and (min-width: 991px) { 
+	.container {
+		margin-top: 7%;
+	}
+	.text-container {
+		margin-top: 20%;
+	}
+	.tag-line {
+		margin-right: 120px;
+	}
+	.screenshot-container {
+		text-align: right;
+	}
+	.support {
+		padding-right: 20px;
+	}
+	.button-container {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 991px) { 
+	.screenshot-container {
+		text-align: center;
+	}
+	.text-container {
+		text-align: center;
+	}
+	.support {
+		padding-left: 20px;
+	}
+	.button-container {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 768px) { 
+	.paragraph {
+		text-align: justify;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+body {
+	background-color: #70a0ff !important;
+	font-family: 'Lato', sans-serif !important;
+	line-height: 1.42857143;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.screenshot {
+	width: 60%;
+}
+
+.text-container {
+	color: white;
+	text-align: left:
+}
+
+.text-header h1 {
+	font-size: 50px;
+	font-weight: 800;
+}
+
+.tag-line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.paragraph {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 16px;
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #4080ff;
+	border: 0;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.button-text {
+	margin-right: 10px;
+}
+
+.button:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #3d6ad6;
+}
+
+.support {
+	border: none !important;
+	background-color: #70a0ff !important;
+}
+
+.support a {
+	color: white !important;
+	font-weight: bold;
+}
+
+.links {
+	text-align: right;
+	margin-top: 20px;
+	padding-right: 30px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.links li {
+	list-style: none;
+}
+.links li a {
+	text-decoration: none;
+	color: white;
+}
+
+.links li a:visited {
+	color: white;
+}
+
+.links li a:hover {
+	color: white;
+}
