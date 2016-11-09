@@ -1,11 +1,16 @@
+@media only screen and (min-width: 1200px) {
+	.text-container {
+		margin-top: 70px;
+	}
+}
+
 @media only screen and (min-width: 991px) { 
 	.container {
 		margin-top: 7%;
 	}
-	.text-container {
-		margin-top: 20%;
-	}
 	.tag-line {
+		margin-top: 30px;
+		margin-bottom: 15px;
 		margin-right: 120px;
 	}
 	.screenshot-container {
@@ -37,8 +42,8 @@
 @media only screen and (max-width: 768px) { 
 	.paragraph {
 		text-align: justify;
-		margin-left: 30px;
-		margin-right: 30px;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 }
 
@@ -62,16 +67,13 @@ body {
 	text-align: left:
 }
 
+.tag-line {	
+	font-size: 30px;
+	font-weight: 300;
+}
 .text-header h1 {
 	font-size: 50px;
 	font-weight: 800;
-}
-
-.tag-line {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 30px;
-	font-weight: 300;
 }
 
 .paragraph {
@@ -122,7 +124,7 @@ body {
 	margin-top: 20px;
 	padding-right: 30px;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 .links li {
@@ -139,4 +141,12 @@ body {
 
 .links li a:hover {
 	color: white;
+}
+
+.clear {
+	padding: 30px;
+}
+
+.navbar {
+	border-radius: 0px !important;
 }
