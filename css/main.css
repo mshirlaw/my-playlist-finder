@@ -9,7 +9,7 @@
 		margin-top: 7%;
 	}
 	.tag-line {
-		margin-top: 30px;
+		margin-top: 25px;
 		margin-bottom: 15px;
 		margin-right: 120px;
 	}
@@ -43,13 +43,17 @@
 	.text-header h1 {
 		font-size: 50px;
 	}
+	.paragraph {
+		font-size: 22px;
+	}
 }
 
 @media only screen and (max-width: 768px) { 
 	.paragraph {
 		text-align: justify;
-		margin-left: 5px;
-		margin-right: 5px;
+		margin-left: 15px;
+		margin-right: 15px;
+		font-size: 20px;
 	}
 	.text-header h1 {
 		font-size: 40px;
@@ -86,9 +90,8 @@ body {
 }
 
 .paragraph {
-	margin-top: 30px;
+	margin-top: 25px;
 	margin-bottom: 30px;
-	font-size: 22px;
 	font-weight: 300;
 }
 
