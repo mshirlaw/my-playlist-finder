@@ -16,6 +16,9 @@
 			img.src = 'img/home.png';
 			imageCounter++;
 		} else if (imageCounter === 1) {
+			img.src = 'img/home2.png';
+			imageCounter++;
+		} else if (imageCounter === 2) {
 			img.src = 'img/original.png';
 			imageCounter = 0;
 		}
