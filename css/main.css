@@ -45,6 +45,7 @@
 	}
 	.paragraph {
 		font-size: 22px;
+		margin-top: 25px;
 	}
 }
 
@@ -57,6 +58,16 @@
 	}
 	.text-header h1 {
 		font-size: 40px;
+	}
+	.tag-line {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.tag-line h2 {
+		font-size: 24px;
+	}
+	.paragraph {
+		margin-top: 15px;
 	}
 }
 
@@ -84,14 +95,11 @@ body {
 	font-weight: 800;
 }
 
-.tag-line {	
-	font-size: 30px;
+.tag-line h2 {
 	font-weight: 300;
 }
 
 .paragraph {
-	margin-top: 25px;
-	margin-bottom: 30px;
 	font-weight: 300;
 }
 
@@ -107,6 +115,7 @@ body {
 	border: 0;
 	text-decoration: none;
 	text-align: center;
+	margin-top: 15px;
 	margin-bottom: 20px;
 	font-weight: bold;
 }
