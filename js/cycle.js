@@ -12,7 +12,7 @@
 	}
 	
 	function changeImage() {
-		img.src = 'img/' + imageCounter + '.png';
+		img.src = 'img/img' + imageCounter + '.PNG';
 		if (++imageCounter > 4) {
 			imageCounter = 0;
 		}
