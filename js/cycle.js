@@ -13,7 +13,7 @@
 	
 	function changeImage() {
 		img.src = 'img/img' + imageCounter + '.PNG';
-		if (++imageCounter > 4) {
+		if (++imageCounter > 5) {
 			imageCounter = 0;
 		}
 	}
